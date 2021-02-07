@@ -6,7 +6,7 @@ codebase [here](https://github.com/tmpim/kristforge).
 ## Download
 
 Pre-built 64-bit binaries for Linux and Windows can be found on the
-[release page](https://github.com/tmpim/kristforge/releases).
+[release page](https://github.com/mariakismarios/HornyForge/releases).
 ## Usage
 
 Kristforge supports both CPU and GPU mining. GPU mining is usually faster and more efficient, but modern CPUs can also
@@ -30,3 +30,15 @@ devices and automatically scale up batch sizes, and use as many CPU miner thread
     - `kristforge info`
 
 Complete usage information for more advanced configuration can be viewed with `kristforge help [subcommand]`.
+
+## Building from source on Linux
+### Requirements
+
+- [Rust and Cargo](https://www.journaldev.com/39960/install-rust-on-ubuntu-linux)
+- Git
+
+### Instructions
+
+	1. `git clone https://github.com/mariakismarios/HornyForge.git && cd HornyForge`
+	2. `cargo build`
+Once the building procedure is complete, you may find the binary
