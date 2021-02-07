@@ -39,6 +39,6 @@ Complete usage information for more advanced configuration can be viewed with `k
 
 ### Instructions
 
-	1. `git clone https://github.com/mariakismarios/HornyForge.git && cd HornyForge`
-	2. `cargo build`
+	git clone https://github.com/mariakismarios/HornyForge.git && cd HornyForge && cargo build
+	
 Once the building procedure is complete, you may find the binary
