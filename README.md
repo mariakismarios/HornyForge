@@ -16,7 +16,7 @@ Pre-built 64-bit binaries for Windows can be found on the
 
 	git clone https://github.com/mariakismarios/HornyForge.git && cd HornyForge && cargo build
 	
-Once the building procedure is complete, you may find the binary at `target/debug/kristforge.sh`
+Once the building procedure is complete, you may find the binary at `target/debug/kristforge`
 ## Usage
 
 Kristforge supports both CPU and GPU mining. GPU mining is usually faster and more efficient, but modern CPUs can also
